@@ -23,7 +23,54 @@ let boolenIsLoggedIn = Boolean(isLoggedIn)
 
 let someNuber = 45
 let stringInNubmer = String(someNuber)
-console.log(stringInNubmer)
-console.log(typeof stringInNubmer)
+// console.log(stringInNubmer)
+// console.log(typeof stringInNubmer)
 
 // 45 =>45, ya nazar ana ma tu ak pure number ha but is ke type ak srting ban gy ha as ma bs ya he change ha 
+
+
+
+
+
+
+// *****************Operations*****************
+
+let value = 3
+let negvalue = -value
+// console.log(negvalue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+
+let str1 = "Hello"
+let str2 = " Ali bro"
+
+let str3 = str1 +str2
+// console.log(str3)
+
+console.log(1 +"2");
+console.log("1"+2);
+console.log("1"+ 2 + 3);
+console.log(1+ 2 + "3");
+
+// agra kis be opertions a 2 value ho tu mean a str or 2nd nbr ho tu us ke ouput string he show ho gee chaha wo phel str ho ya nbr output same ho gee but agra ap ka pass 3 value ha tu mean phel str or next two nbrs to output string ma he dhow ho gee but agra in ka sequnce change kar dy jy tu output ba chang ho jy gee. 
+console.log((3+4) *5%2);
+// agra ap ko as kuch karn jis line nbr 61 pa tu nuber ko direct na lihka q ka a sb fun ka lay theek ha but real ma as as ko koe kam ni ha.
+
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
+
